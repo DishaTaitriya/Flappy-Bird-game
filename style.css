@@ -1,0 +1,20 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+#board {
+    display: block;
+    margin: 0 auto;
+    background-image: url("images/flappybirdbg.png");
+}
+@media only screen and (max-width: 1155px){
+    #board{
+    margin: auto;
+    height: 900px;
+    width: 390px;
+    }
+}
+
